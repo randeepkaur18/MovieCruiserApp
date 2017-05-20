@@ -7,7 +7,7 @@ export class Movie {
     Type: string;
     Poster: string;
 
-    // Movie class paramerterized constructor
+    // paramerterized constructor 
     constructor(
         Title: string,
         imdbID: string,

@@ -16,7 +16,7 @@ describe('AppComponent (templateUrl)', () => {
 	beforeEach(async(() => {
 		TestBed.configureTestingModule({
     		declarations: [ AppComponent ], // declare the test component
-    		schemas: [NO_ERRORS_SCHEMA]
+    		schemas: [NO_ERRORS_SCHEMA] // to ignore the unrecognized angular material elements
   		})
   		.compileComponents();  // compile template and css
 	}));

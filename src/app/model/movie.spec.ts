@@ -7,6 +7,9 @@ let movie;
 
 describe('Movie', () => {
 
+  /*beforeEach will initialize the properties of Movie class before each test case
+    and store them in an instace of Movie class
+  */
   beforeEach(() => {
     movie = new Movie('Titanic','tt0120338',1997,'Movie','https://images-na.ssl-images-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg');
   });

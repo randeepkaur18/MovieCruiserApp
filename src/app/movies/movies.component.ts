@@ -13,6 +13,7 @@ import { MoviesService } from './movies.service';
 export class MoviesComponent implements OnInit {
 
   moviesName = [];
+  
   constructor(
     private MoviesService: MoviesService,
     private route: ActivatedRoute,
