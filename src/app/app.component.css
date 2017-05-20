@@ -1,0 +1,7 @@
+/* importing perbuilt theme of angular/material */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.navigationLink
+{
+	margin-right: 20px;
+}

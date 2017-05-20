@@ -1,0 +1,12 @@
+img
+{
+	width: 300px;
+	height: 400px;
+}
+#movieCard
+{
+	margin-right: 37px;
+	margin-left: 37px;
+	margin-top: 40px;
+	float: left;
+}
